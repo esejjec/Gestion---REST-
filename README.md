@@ -10,8 +10,11 @@
 # Definimos las URL que emplearemos
 No usar verbos
 
-> GET / → 
+> GET /credencial → recuperara una lista de personas.
+> GET /credencial/1 → recupera la información de una persona en especifico.
+
+> GET / → /c → recuperara una lista de personas.
 
 # Configurar peticiones con rutas del proyecto
 
-> 1. obtener personas : GET : http://localhost/gestion/inicio
+> 1. obtener credencial : GET : http://localhost/gestion/credencial
