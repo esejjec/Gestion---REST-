@@ -10,8 +10,8 @@
 # Definimos las URL que emplearemos
 No usar verbos
 
-* GET / → 
+> GET / → 
 
-#Configurar peticiones con rutas del proyecto
+# Configurar peticiones con rutas del proyecto
 
 1. obtener personas : GET : http://localhost/gestion/peoples
