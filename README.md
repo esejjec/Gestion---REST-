@@ -10,11 +10,14 @@
 # Definimos las URL que emplearemos
 No usar verbos
 
-> GET /credencial → recuperara una lista de personas.
-> GET /credencial/1 → recupera la información de una persona en especifico.
+> GET /credencial → Lista de todos los credenciales generados.
 
-> GET / → /c → recuperara una lista de personas.
+> GET /credencial/1 →  Credencial de una persona en especifico.
+
+> GET /credencial/area → Credencial por areas (Sociales , Ingenieria y Biomedicas).
 
 # Configurar peticiones con rutas del proyecto
 
 > 1. obtener credencial : GET : http://localhost/gestion/credencial
+
+> 2. Obtener distribucionA: GET : http://localhost/gestion/distribucion
