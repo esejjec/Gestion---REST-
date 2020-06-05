@@ -1,6 +1,6 @@
 # GESTION
  
-# Los códigos de respuesta que utilizaremos en este tutorial son:
+# Los códigos de respuesta:
 
 1. 500 : Internal Server Error → Se ha producido un error interno
 2. 422 : Unprocessable Entity → Entidad no procesable
